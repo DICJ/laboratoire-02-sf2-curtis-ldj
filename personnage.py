@@ -3,7 +3,7 @@ import random
 class Personnage : 
     """la classe personnage represente un combattant general 
     """
-    def __init__(self ,  nom : str , vie : int , attaque : int ) :
+    def __init__(self ,  nom : str , vie : int , attaque : int ,  vie_max : int  ) :
 
         self.__nom = nom 
         self.__vie = vie
